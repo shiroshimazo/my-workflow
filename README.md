@@ -51,6 +51,7 @@ AI assistants write code fast, but without clear instructions the result can be 
 3. **Create `context.md`** in your project root. It holds everything specific to that project, so the workflow files stay reusable:
 
    ```markdown
+   For Example:
    # Project Context
    - Stack: (language, framework, database)
    - Naming exceptions: (stack conventions that override the naming table)
