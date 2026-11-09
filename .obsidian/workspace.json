@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ai-workflow/06 - Design Rules.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 - Design Rules"
+            }
+          },
+          {
+            "id": "20bc81e8d151fd3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ai-workflow/00-README.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "00-README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,14 +203,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e875b6163c8349f",
+  "active": "20bc81e8d151fd3b",
   "lastOpenFiles": [
+    "ai-workflow/07 - Validation Rules.md",
+    "ai-workflow/06 - Design Rules.md",
+    "ai-workflow/05 - Review Checklist.md",
     "ai-workflow/00-README.md",
     "ai-workflow/04 - Security.md",
     "ai-workflow/03 - Code Standards.md",
     "ai-workflow/02 - Process.md",
     "ai-workflow/01- Introduction.md",
-    "ai-workflow/05 - Review Checklist.md",
     "Welcome.md",
     "ai-workflow"
   ]
