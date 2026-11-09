@@ -23,8 +23,7 @@ AI assistants write code fast, but without clear instructions the result can be 
     ├── 02-process.md                    how the AI and I work together
     ├── 03-code-standards.md             readability and maintainability rules
     ├── 04-security.md                   protecting data and access
-    ├── 05-review-checklist.md           self-check before a task is "done"
-    └── 06-project-context-template.md   copy into each project as context.md
+    └── 05-review-checklist.md           self-check before a task is "done"
 ```
 
 | File | What it covers |
