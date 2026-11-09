@@ -80,4 +80,4 @@ This workflow improves the AI's output, but it doesn't replace review. Always ch
 
 ## License
 
-Add a license of your choice (for example MIT) before publishing.
+This project is licensed under the MIT License.
