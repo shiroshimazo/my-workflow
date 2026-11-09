@@ -17,13 +17,16 @@ AI assistants write code fast, but without clear instructions the result can be 
 ```
 .
 ├── README.md
+├── LICENSE
 └── ai-workflow/
     ├── 00-README.md                     index, read order, how to use
     ├── 01-introduction.md               goals, naming convention, semantic code
     ├── 02-process.md                    how the AI and I work together
     ├── 03-code-standards.md             readability and maintainability rules
     ├── 04-security.md                   protecting data and access
-    └── 05-review-checklist.md           self-check before a task is "done"
+    ├── 05-review-checklist.md           self-check before a task is "done"
+    ├── 06-design-rules.md               UI/UX laws and concise interface text
+    └── 07-validation-rules.md           form validation and error messages
 ```
 
 | File | What it covers |
@@ -32,12 +35,15 @@ AI assistants write code fast, but without clear instructions the result can be 
 | `02-process.md` | Understand, plan, build in small steps, self-review, report |
 | `03-code-standards.md` | Function size, structure, no unnecessary code, comments, error handling |
 | `04-security.md` | Input validation, queries, authentication and authorization, secrets, logging |
-| `05-review-checklist.md` | A checklist the AI runs against its own work before finishing |
+| `05-design-rules.md` | Jakob's, Miller's, Hick's, Fitts's laws, Peak-End Rule, Aesthetic-Usability Effect, Occam's Razor, and concise writing |
+| `06-validation-rules.md` | Form validation on client and server, red-highlighted fields with clear messages, and required test cases |
+| `07-review-checklist.md` | A checklist the AI runs against its own work before finishing |
+| `08-project-context-template.md` | A per-project file for the stack, structure, roles, and sensitive data |
 
 ## Quick start
 
 1. **Copy the folder** into your project (or keep it in a shared place such as an Obsidian vault).
-2. **Create the project context.** Copy `06-project-context-template.md` into your project as `context.md` and fill it in.
+2. **Create the project context.** Copy `08-project-context-template.md` into your project as `context.md` and fill it in.
 3. **Point your AI at it.** At the start of a session, say something like:
 
    > Read every file in `ai-workflow/` in order, then read `context.md`, before doing anything.
@@ -52,6 +58,8 @@ AI assistants write code fast, but without clear instructions the result can be 
 - **Build only what was asked.** No extra features and no "just in case" code.
 - **Security from the start.** Validate input, use parameterized queries, check access on every protected action, and never hardcode secrets.
 - **One concept, one name.** Names describe purpose and stay consistent everywhere.
+- **Design by proven UI/UX laws.** Familiar patterns, few choices, large targets, and short, direct text.
+- **Never accept bad data.** Validate every form on the server, highlight what is wrong, and say how to fix it.
 
 When rules conflict, the priority is: security, correctness, clarity, maintainability, then brevity and performance.
 
@@ -79,4 +87,4 @@ This workflow improves the AI's output, but it doesn't replace review. Always ch
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
