@@ -35,10 +35,9 @@ AI assistants write code fast, but without clear instructions the result can be 
 | `02-process.md` | Understand, plan, build in small steps, self-review, report |
 | `03-code-standards.md` | Function size, structure, no unnecessary code, comments, error handling |
 | `04-security.md` | Input validation, queries, authentication and authorization, secrets, logging |
-| `05-design-rules.md` | Jakob's, Miller's, Hick's, Fitts's laws, Peak-End Rule, Aesthetic-Usability Effect, Occam's Razor, and concise writing |
-| `06-validation-rules.md` | Form validation on client and server, red-highlighted fields with clear messages, and required test cases |
-| `07-review-checklist.md` | A checklist the AI runs against its own work before finishing |
-| `08-project-context-template.md` | A per-project file for the stack, structure, roles, and sensitive data |
+| `05-review-checklist.md` | A checklist the AI runs against its own work before finishing |
+| `06-design-rules.md` | Jakob's, Miller's, Hick's, Fitts's laws, Peak-End Rule, Aesthetic-Usability Effect, Occam's Razor, and concise writing |
+| `07-validation-rules.md` | Form validation on client and server, red-highlighted fields with clear messages, and required test cases |
 
 ## Quick start
 
