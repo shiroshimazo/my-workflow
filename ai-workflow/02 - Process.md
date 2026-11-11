@@ -22,9 +22,14 @@
 
 ## 5. Report
 
-- Summarize what changed and in which files.
-- Point out risks, trade-offs, assumptions, or anything left undone.
-- Suggest a one-line commit message in plain, friendly wording (example: `adding auth in login`).
+Short and direct. Nothing less, nothing more.
+
+- **Changed:** one line per change, with the file name.
+- **Test:** what to check, in one line.
+- **Open:** risks, assumptions, or unverified items. Leave this out if there are none.
+- **Commit:** a one-line message in plain, friendly wording (example: `adding auth in login`).
+- No long explanations, no restating the task, no filler.
+- Never leave out a risk, assumption, or unverified item just to be short.
 - Never run `git add` or `git commit`. I do that myself.
 
 ## Scope control

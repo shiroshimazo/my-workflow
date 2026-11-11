@@ -38,5 +38,6 @@ Before saying a task is done, check your own work against this list. If any answ
 
 ## Report
 
-- [ ] Did I summarize the changes, risks, and assumptions?
+- [ ] Is the report short and direct, with no long explanations?
+- [ ] Are risks and assumptions included, but only if there are any?
 - [ ] Did I suggest a one-line commit message (without running git)?
